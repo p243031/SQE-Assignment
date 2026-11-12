@@ -1,10 +1,9 @@
-
 name: SQE Automated Testing
 
 on:
   push:
     branches:
-      - maing
+      - main
       - blackbox-testing
       - whitebox-testing
       - documentation
@@ -35,3 +34,5 @@ jobs:
       - name: Run automated tests
         run: |
           pytest -v
+        env:
+          PYTHONPATH: .
