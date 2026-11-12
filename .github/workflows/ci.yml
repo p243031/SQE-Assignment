@@ -4,7 +4,7 @@ name: SQE Automated Testing
 on:
   push:
     branches:
-      - main
+      - maing
       - blackbox-testing
       - whitebox-testing
       - documentation
