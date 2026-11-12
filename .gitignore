@@ -1,0 +1,6 @@
+.coverage
+__pycache__/
+tests/__pycache__/
+.postman/
+postman/
+venv/
